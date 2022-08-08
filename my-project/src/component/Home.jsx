@@ -1,16 +1,12 @@
 import React from 'react'
+import logo from "../images/dddd.jpeg"
 
 
 
 const Home = () => {
   return (
      <div >
-         <div className='w-full flex mt-24 text-24'>
-          <h1>NEW ARRIVALS</h1>
-          </div>
-          <p >your satisfaction, Our priority</p>
-         
-
+         <img src={logo} alt='new arrival'/>
      </div>
   )
 }
