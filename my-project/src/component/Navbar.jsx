@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../images/dddd.jpeg"
+import logo from "./images/dddd.jpeg"
 
 export default function NavBar() {
     const [navbar, setNavbar] = useState(false);
@@ -9,7 +9,7 @@ export default function NavBar() {
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                       <img src={logo} className="w-10"/>
+                        <img src={logo} className="w-10" />
                         <div className="md:hidden">
                             <button
                                 className="p-2 text-white outline-none rounded-temd focus:border-gray-400 focus:border"
@@ -50,9 +50,8 @@ export default function NavBar() {
                 </div>
                 <div>
                     <div
-                        className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
-                            navbar ? "block" : "hidden"
-                        }`}
+                        className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
+                            }`}
                     >
                         <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             <li className="text-white hover:text-indigo-200">
@@ -70,22 +69,22 @@ export default function NavBar() {
                         </ul>
 
                         <div className="mt-3 space-y-2 lg:hidden md:inline-block">
-                    <a
-                        href="javascript:void(0)"
-                        className="inline-block w-full px-4 py-2 text-center text-white bg-orange-200 rounded-md shadow hover:bg-gray-800"
-                    >
-                        Sign in
-                    </a>
-                    <a
-                        href="javascript:void(0)"
-                        className="inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
-                    >
-                        Sign up
-                    </a>
-                </div>
+                            <a
+                                href="javascript:void(0)"
+                                className="inline-block w-full px-4 py-2 text-center text-white bg-orange-200 rounded-md shadow hover:bg-gray-800"
+                            >
+                                Sign in
+                            </a>
+                            <a
+                                href="javascript:void(0)"
+                                className="inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
+                            >
+                                Sign up
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div className="hidden space-x-2 md:inline-block">
+                <div className="">
                     <a
                         href="javascript:void(0)"
                         className="px-4 py-2 text-white bg-orange-300 rounded-md shadow hover:bg-gray-800"
