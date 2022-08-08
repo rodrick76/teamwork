@@ -1,14 +1,15 @@
 import Navbar from './component/Navbar';
 import './App.css';
-import Products from './component/Products';
+import Home from './component/Home';
 
 
 function App() {
   return (
    <>
     <Navbar/>
-   <Products/>
-    
+    <Home/>
+
+
    </>
   );
 }
