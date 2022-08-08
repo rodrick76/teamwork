@@ -85,7 +85,7 @@ export default function NavBar() {
                 </div>
                     </div>
                 </div>
-                <div className="hidden space-x-2 md:inline-block">
+                <div className="">
                     <a
                         href="javascript:void(0)"
                         className="px-4 py-2 text-white bg-orange-300 rounded-md shadow hover:bg-gray-800"
