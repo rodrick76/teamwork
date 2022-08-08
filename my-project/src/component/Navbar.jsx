@@ -96,7 +96,13 @@ export default function NavBar() {
                         href="javascript:void(0)"
                         className="px-4 py-2 text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
                     >
-                         Sign up
+                        <i className="fa fa-user-plus me-2"></i> Sign up
+                    </a>
+                    <a
+                        href="javascript:void(0)"
+                        className="px-4 py-2 text-white bg-orange-300 rounded-md shadow hover:bg-gray-800"
+                    >
+                        <i className="fa fa-shopping-cart"></i>  cart(0)
                     </a>
                 </div>
             </div>
