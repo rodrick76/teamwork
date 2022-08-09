@@ -50,8 +50,8 @@ export default Products;
 const ShowProducts = ({ filter = [] }) => {
     return (
         <>
-            <div className='flex-column justify-center text-white'>
-                <button className="h-10 px-4 m-4 rounded-md py-2bg-orange-300 hover:bg-gray-800 btn btn-outline-dark">ALL</button>
+            <div className='justify-center text-white flex-column'>
+                <button className="h-10 px-4 py-2 m-4 bg-orange-300 rounded-md hover:bg-gray-800 btn btn-outline-dark">ALL</button>
                 <button className="h-10 px-4 py-2 m-4 bg-orange-300 rounded-md hover:bg-gray-800 btn btn-outline-dark ">Men's Clothing</button>
                 <button className="h-10 px-4 py-2 m-4 bg-orange-300 rounded-md btn btn-outline-dark hover:bg-gray-800">Women's Clothing</button>
                 <button className="h-10 px-4 py-2 m-4 bg-orange-300 rounded-md btn btn-outline-dark hover:bg-gray-800">Jewelery</button>

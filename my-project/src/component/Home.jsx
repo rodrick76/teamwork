@@ -1,19 +1,25 @@
-import React from 'react'
-
-import logo from "./images/dddd.jpeg"
-
+import React from 'react';
 import Products from './Products';
+import '../App.css'
 
 
 
 
 const Home = () => {
   return (
-     <div className='h-screen bg-gradient-to-r from-cyan-500 to-blue-500'>       
-   <Products/>
+    <>
+    <div>
+      <div className='Home'>
+        
 
-     </div>
-  )
+    </div>
+    <div className=''>
+        <Products />
+
+      </div>
+    </div>
+ </> 
+ )
 }
 
 export default Home;
