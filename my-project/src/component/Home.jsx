@@ -9,10 +9,7 @@ import Products from './Products';
 
 const Home = () => {
   return (
-     <div >
-
-         <img src={logo} alt='new arrival'/>
-         
+     <div className='h-screen bg-gradient-to-r from-cyan-500 to-blue-500'>       
    <Products/>
 
      </div>
